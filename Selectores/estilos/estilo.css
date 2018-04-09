@@ -1,0 +1,13 @@
+#alerta{
+    background: red;
+    color:white;
+}
+
+.normal{
+    background-color: aqua;
+}
+
+.alter{
+    background-color: black;
+    color: white;
+}

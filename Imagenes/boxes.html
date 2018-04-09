@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{ box-sizing: border-box;}
+        [class^="bg-"] {
+            border: 2px solid black;
+            float: left;
+            height: 180px;
+            margin: 1%;
+            width: 31.33%;
+        }
+        .bg-color {
+            background-color: orange;
+        }
+        
+        .bg-imagen {
+            background-image: url(https://placeimg.com/600/600);
+        }
+    
+        .bg-size {
+            background-image: url(https://placeimg.com/800/600);
+            background-size:50px; 
+        }
+        
+      .bg-repeat {
+       background-image: url(https://placeimg.com/90/90);
+           background-repeat: no-repeat;
+        }
+        
+        .bg-position {
+               background-image: url(https://placeimg.com/90/90);
+               background-position: center bottom;
+               background-repeat: no-repeat
+        }
+        
+        
+    </style>
+</head>
+<body>
+   <div class="bg-color"></div>
+   <div class="bg-imagen"></div>
+   <div class="bg-size"></div>
+   <div class="bg-repeat"></div>
+    <div class="bg-position"></div>
+</body>
+</html>

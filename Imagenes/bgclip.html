@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #ejemplo, #ejemplo2 {
+            border: 10px dotted black;
+            background-image: url(https://placeimg.com/200/200);
+            background-origin: padding-box;
+            background-repeat: no-repeat;
+            padding: 35px;
+            margin-bottom: 1em;
+            background-clip: padding-box;
+            
+        }
+        
+        #ejemplo2 {
+            background-clip: content-box;
+                        background-origin: content-box;
+           
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="ejemplo">
+        <h2>Background-clip con padding-box</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde perspiciatis repellat suscipit natus possimus, tempore expedita magnam accusamus placeat aliquid! Non libero cupiditate debitis sed ducimus reprehenderit nemo, similique.</p>
+    </div>
+     <div id="ejemplo2">
+        <h2>Background-clip con Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde perspiciatis repellat suscipit natus possimus, tempore expedita magnam accusamus placeat aliquid! Non libero cupiditate debitis sed ducimus reprehenderit nemo, similique.</p>
+    </div>
+</body>
+</html>
